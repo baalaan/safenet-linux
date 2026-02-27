@@ -6,14 +6,14 @@ How to configure SafeNet eToken in Linux
 
 ### Prerequiste
 
-* Safenet Authenfication Client >= 10.0 installed
+* Safenet Authenfication Client >= 10.9 installed
+ - Download: https://knowledge.digicert.com/general-information/how-to-download-safenet-authentication-client
 * libnss3 and modutil (libnss3-tools)
+ - Ubuntu/Linux Mint: sudo apt install libnss3 libnss3-tools
 
 ### Tested On
 
-* Ubuntu 18.04 (working on Chrome and Firefox)
-* Ubuntu 20.04 (not working yet)
-* Archlinux
+* Linux Mint 22.3
 
 ### Recover the safenet eToken lib path
 
@@ -30,7 +30,7 @@ We will use the `/usr/lib/libeToken.so.10` for the example
 
 ## How to configure Firefox
 
-Ppen Firefox and go to the security preferences (`about:preferences#privacy` in firefox navbar).
+Open Firefox and go to the security preferences (`about:preferences#privacy` in firefox navbar).
 
 At the end of the page, click on `Security Devices` and a new window will appear:
 
